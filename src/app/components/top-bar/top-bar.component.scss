@@ -1,0 +1,25 @@
+#top_bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#top_bar img {
+  width: 90px;
+  height: 50px;
+}
+
+#top_bar > div {
+  width: 40%;
+}
+
+#top_bar > .menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#top_bar > .menu > p {
+  cursor: pointer;
+  margin: 0 2%;
+}
