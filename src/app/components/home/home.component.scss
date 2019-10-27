@@ -17,16 +17,16 @@ app-top-bar {
   justify-content: space-between;
 }
 
-app-down-arrow {
-  display: flex;
-  flex: 0 0 10%;
-  cursor: pointer;
-}
-
 app-carousel {
   flex: 0 0 90%;
   max-height: 90vh;
   display: flex;
+}
+
+app-down-arrow {
+  display: flex;
+  flex: 0 0 10%;
+  cursor: pointer;
 }
 
 app-footer {
