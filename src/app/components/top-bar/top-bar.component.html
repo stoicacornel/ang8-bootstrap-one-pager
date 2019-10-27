@@ -1,10 +1,18 @@
-<div id="top_bar">
-    <div>
+<div id="top-bar">
+    <div class="logo">
         <img class="" src="../../../assets/svg/logo.svg" alt="">
     </div>
-    <div class="menu">
+    <div id="nav" class="inline-menu">
         <p id="top_bar_scroll_to_about">About the event</p>
         <p id="top_bar_scroll_to_venue_placeholder">The venue</p>
         <p id="top_bar_scroll_to_speaker">Faqs</p>
     </div>
+
+    <section id="hamburger">
+        <div id="menu" (click)="hamburgerToggle()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+    </section>
 </div>
