@@ -1,10 +1,12 @@
 .about-content {
   display: flex;
-  padding-top: 7%;
-  height: 80vh;
+  padding-top: 3em;
 }
 
 .about-content > .image-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   overflow: hidden;
   padding: 0;
 }
@@ -19,13 +21,24 @@
   padding: 2% 0;
 }
 
-.about-content > .text-section > h1 {
+.about-content > .text-section > h2 {
   color: var(--main-theme-color);
 }
 
 .about-content > .text-section > h4 {
-  font-size: 21px;
-  line-height: 32px;
-  font-weight: 400;
   padding: 10px 0;
+}
+
+@media screen and (max-width: 991px) {
+  .about-content > .image-section > img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .about-content > .image-section > img {
+    width: 67vw;
+    margin-left: 0;
+  }
 }

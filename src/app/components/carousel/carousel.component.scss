@@ -24,16 +24,6 @@
   padding: 0 10%;
 }
 
-.left_half_slide > p {
-  font-size: 21px;
-  line-height: 32px;
-}
-
-.left_half_slide > h1 {
-  font-size: 80px;
-  line-height: 85px;
-}
-
 .right_half_slide {
   margin-left: 50%;
 }
@@ -65,3 +55,67 @@
   margin-left: 0;
   margin-right: 50%;
 }
+
+/* Responsive Styling */
+
+//@media screen and (max-width: 479px) {
+//  .left_half_slide > h1 {
+//    font-size: 23px;
+//    line-height: 30px;
+//    margin-bottom: 0.8rem;
+//  }
+//
+//  .left_half_slide > p {
+//    font-size: 20px;
+//    line-height: 25px;
+//  }
+//}
+
+@media screen and (max-width: 991px) {
+  .carousel-item > div {
+    display: inline-flex;
+    width: 100%;
+    height: 45vh;
+  }
+
+  .left_half_slide {
+    margin-top: 45vh;
+  }
+
+  //.left_half_slide > h1 {
+  //  font-size: 40px;
+  //  line-height: 45px;
+  //  margin-bottom: 0.8rem;
+  //}
+  //
+  //.left_half_slide > p {
+  //  font-size: 25px;
+  //  line-height: 35px;
+  //}
+
+  .right_half_slide {
+    margin-left: 0;
+  }
+
+  .right_half_slide > img {
+    object-position: 0;
+  }
+
+  .carousel-indicators {
+    // Margin Y axis is already declared and used. The property Auto will overwrite it (We don't want that)
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+//@media screen and (min-width: 991px) {
+//  .left_half_slide > h1 {
+//    font-size: 80px;
+//    line-height: 85px;
+//  }
+//
+//  .left_half_slide > p {
+//    font-size: 21px;
+//    line-height: 32px;
+//  }
+//}

@@ -8,4 +8,68 @@
 
   --white-text-color: var(--white);
   --black-text-color: var(--black);
+
+  /* Global Responsive Style */
+
+  @media screen and (max-width: 479px) {
+    h1 {
+      font-size: 1.5rem;
+      line-height: 30px;
+      margin-bottom: 0.8rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    h4 {
+      font-size: 1.3rem;
+      line-height: 30px;
+      font-weight: 300;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 25px;
+    }
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 991px) {
+    h1 {
+      font-size: 2.5rem;
+      line-height: 45px;
+      margin-bottom: 0.8rem;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    h4 {
+      font-size: 1.8rem;
+      line-height: 40px;
+      font-weight: 400;
+    }
+
+    p {
+      font-size: 1.5rem;
+      line-height: 35px;
+    }
+  }
+
+  @media screen and (min-width: 992px) {
+    h1 {
+      font-size: 5rem;
+      line-height: 85px;
+    }
+
+    h2 {
+      font-size: 2.5rem;
+    }
+
+    p {
+      font-size: 1.5rem;
+      line-height: 32px;
+    }
+  }
 }
