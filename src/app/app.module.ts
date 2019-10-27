@@ -7,6 +7,9 @@ import { HomeComponent } from './components/home/home.component';
 import { DownArrowComponent } from './components/down-arrow/down-arrow.component';
 import { TopBarComponent } from './components/top-bar/top-bar.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
+import { AboutContentComponent } from './components/about-content/about-content.component';
+import { SpeakerContentComponent } from './components/speaker-content/speaker-content.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +18,9 @@ import { CarouselComponent } from './components/carousel/carousel.component';
     DownArrowComponent,
     HomeComponent,
     TopBarComponent,
+    AboutContentComponent,
+    SpeakerContentComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,31 @@
+.speaker-content {
+  display: flex;
+  padding-top: 7%;
+  height: 70vh;
+}
+
+.speaker-content > .image-section {
+  overflow: hidden;
+  padding: 0;
+}
+
+.speaker-content > .text-section {
+  margin: auto;
+  padding: 4% 3%;
+  color: var(--black-text-color);
+}
+
+.speaker-content > .text-section > p {
+  padding: 2% 0;
+}
+
+.speaker-content > .text-section > h1 {
+  color: var(--main-theme-color);
+}
+
+.speaker-content > .text-section > h4 {
+  font-size: 21px;
+  line-height: 32px;
+  font-weight: 400;
+  padding: 10px 0;
+}

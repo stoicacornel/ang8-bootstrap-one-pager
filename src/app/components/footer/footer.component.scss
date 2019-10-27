@@ -1,0 +1,27 @@
+#footer {
+  display: flex;
+  width: 100%;
+  padding: 40px 50px;
+  box-shadow: 0 -5px 25px 0 var(--main-shadow-color);
+  color: var(--main-theme-color);
+}
+
+#footer > div {
+  display: flex;
+  align-items: center;
+}
+
+#footer > .footer-menu {
+  justify-content: center;
+}
+
+#footer > .footer-menu > p {
+  cursor: pointer;
+  margin: 0 2%;
+}
+
+#footer > .copyright > p {
+  margin: 0;
+  color: var(--black-text-color);
+  font-weight: 500;
+}

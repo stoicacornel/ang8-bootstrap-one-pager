@@ -1,0 +1,31 @@
+.about-content {
+  display: flex;
+  padding-top: 7%;
+  height: 80vh;
+}
+
+.about-content > .image-section {
+  overflow: hidden;
+  padding: 0;
+}
+
+.about-content > .text-section {
+  margin: auto;
+  padding: 4% 3%;
+  color: var(--black-text-color);
+}
+
+.about-content > .text-section > p {
+  padding: 2% 0;
+}
+
+.about-content > .text-section > h1 {
+  color: var(--main-theme-color);
+}
+
+.about-content > .text-section > h4 {
+  font-size: 21px;
+  line-height: 32px;
+  font-weight: 400;
+  padding: 10px 0;
+}
